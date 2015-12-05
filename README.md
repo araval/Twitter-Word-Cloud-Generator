@@ -2,11 +2,7 @@
 
 $ ./makeWordCloud.sh \<username\>
 
-Takes a twitter user's username, creates a wordcloud, and saves image to username.png. Uses [this generator](https://github.com/amueller/word_cloud) which you can install: 
-
-```
-pip install wordcloud
-```
+Takes a twitter user's username, creates a wordcloud, and saves image to username.png. Requires  [wordcloud](https://github.com/amueller/word_cloud), [matplotlib](http://matplotlib.org/users/installing.html) and SciPy.
 
 # Examples
 Neil deGrasse Tyson
@@ -27,6 +23,6 @@ Hillary Clinton
 Donald Trump
 ![trump](https://github.com/araval/Twitter-Word-Cloud-Generator/blob/master/images/realdonaldtrump.png)
 
-Jeb Bush
-![jebbush](https://github.com/araval/Twitter-Word-Cloud-Generator/blob/master/images/jebbush.png)
+Bernie Sanders
+![berniesanders](https://github.com/araval/Twitter-Word-Cloud-Generator/blob/master/images/berniesanders.png)
 
