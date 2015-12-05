@@ -15,6 +15,10 @@ with open('tweets.txt', 'rb') as f:
 
 text = clean_text(tweet_list)
 stopwords = STOPWORDS.copy()
+stopwords.add("us")
+stopwords.add("one")
+stopwords.add("will")
+stopwords.add("u")
 
 wc = WordCloud(max_words=100, stopwords=stopwords, margin=10, random_state=5, width=2000, height=1200).generate(text)
 #               font_path="/home/koroviev/Word Cloud Generator/Arial Unicode MS.ttf").generate(text)
