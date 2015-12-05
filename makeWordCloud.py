@@ -7,7 +7,7 @@ from cleanTweets import clean_text
 from wordcloud import WordCloud, STOPWORDS
 
 def my_color_func(word, font_size, position, orientation, random_state=None, **kwargs):
-    return "hsl(%d, %d%%, %d%%)" % (random.randint(0, 60), 60, random.randint(60, 100))
+    return "hsl(%d, %d%%, %d%%)" % (random.randint(100, 256), 90, random.randint(80, 100))
 
 # Read the text.
 with open('tweets.txt', 'rb') as f:
