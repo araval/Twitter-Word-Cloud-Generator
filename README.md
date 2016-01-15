@@ -1,9 +1,10 @@
 # Word Cloud Generator
 
-$ ./makeWordCloud.sh \<username\>
-
 Takes a twitter user's username, creates a wordcloud, and saves image to username.png. Requires  [wordcloud](https://github.com/amueller/word_cloud), [matplotlib](http://matplotlib.org/users/installing.html) and SciPy.
-
+To run, run the following script:
+```
+$ ./makeWordCloud.sh \<username\>
+```
 # Examples
 Neil deGrasse Tyson
 ![neil tyson](https://github.com/araval/Twitter-Word-Cloud-Generator/blob/master/images/neiltyson.png)
