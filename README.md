@@ -3,7 +3,13 @@
 Takes a twitter user's username, creates a wordcloud, and saves image to username.png. Requires  [wordcloud](https://github.com/amueller/word_cloud), [matplotlib](http://matplotlib.org/users/installing.html) and SciPy.
 To run, run the following script:
 ```
-$ ./makeWordCloud.sh \<username\>
+$ ./makeWordCloud.sh  twitter-username
+```
+To change colors, change the numbers in makeWordCloud.py in the function *my_color_func*   
+Hue values are between 0 and 360, follow rainbow: 
+```
+  Red Orange Yellow Green Blue Indigo Violet
+   0   50  100  150  200  250  300   360
 ```
 # Examples
 Neil deGrasse Tyson
@@ -26,4 +32,3 @@ Donald Trump
 
 Bernie Sanders
 ![berniesanders](https://github.com/araval/Twitter-Word-Cloud-Generator/blob/master/images/berniesanders.png)
-
